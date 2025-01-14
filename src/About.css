@@ -1,0 +1,20 @@
+.card{
+    border:2px solid hsl(0,0%,80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0%, 0%, 0.1);
+   padding: 10px;
+}
+    
+h4:hover{
+    color: rgb(119, 225, 190) ;
+    font-size: larger;
+}
+
+
+
+.content{
+    margin-left: 24rem;
+    margin-top: -320px;
+    height: 305px;
+}
+
