@@ -1,0 +1,20 @@
+.iconsd{
+    padding: 10px;
+}
+
+a{
+    padding: 14px;
+   size: 1000px;
+   color: black;
+}
+
+
+
+.card3{
+    border:2px solid hsl(0,0%,80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0%, 0%, 0.1);
+   padding: 6px;
+   height: 294px;
+}
+

@@ -9,16 +9,16 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Contact() {
   return (
     <>
-        <div className="card">
-        <img style={{ height: "300px" }} src={contact} alt="bot-pic" />
+        <div className="card3">
+        <img style={{ height: "300px" }} src={contact} alt="contact-pic" />
         <div className="content">
-          <marquee direction="">
+          {/* <marquee direction="">
             <h2 style={{color:'rgb(119, 225, 190)' }}>Conncet!! with Me Click any icon</h2>
-          </marquee>
-          <h4>Feel free to reach out—I’d love to connect and discuss exciting ideas or opportunities!</h4>
-         <div className="iconsd"><h4> <a href="https://www.instagram.com/_dsarkarr/?hl=en"><InstagramIcon /></a> <a href="https://www.facebook.com/profile.php?id=100063596674106"><FacebookIcon  /></a> <EmailIcon/> <a href="https://www.linkedin.com/in/dipanjan-dsarkar/">< LinkedInIcon/></a></h4></div>
+          </marquee> */}
+          <h4 style={{padding:'20px'}}>Feel free to reach out—I’d love to connect and discuss exciting ideas or opportunities!</h4>
+         <div className="iconsd"><h4> <a href="https://www.instagram.com/_dsarkarr/?hl=en"><InstagramIcon  style={{fontSize:'40px'}}/></a> <a href="https://www.facebook.com/profile.php?id=100063596674106"><FacebookIcon  style={{fontSize:'40px'}} /></a>  <a href="mailto:sarkar2005dipanjan@gmail.com"><EmailIcon  style={{fontSize:'40px'}}/></a>  <a href="https://www.linkedin.com/in/dipanjan-dsarkar/">< LinkedInIcon  style={{fontSize:'40px'}}/></a></h4></div>
         
-          <h4><ArrowUpwardIcon/>click above to read</h4>
+          <h4><ArrowUpwardIcon/>click above to Connect</h4>
           
         </div>
       </div>
